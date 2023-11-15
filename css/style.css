@@ -8,6 +8,7 @@
 .logo img {
   width: 189px;
   height: 47px;
+  cursor: pointer;
 }
 .nav {
   gap: 30px;
@@ -23,6 +24,30 @@
   font-size: 15px;
   font-weight: 600;
   line-height: 16px; /* 106.667% */
+}
+.nav a:hover{
+  border-bottom: 2px solid #00d981;
+  color: #00d981;
+} 
+body button:hover a{
+  color: #d500d9;
+}
+body button:hover{
+  background: linear-gradient(90deg, #12c143 0%, #00d912 96.96%);
+  box-shadow: 0px 4px 4px 0px rgba(51, 198, 18, 0.2);
+}
+.user:hover{
+  border-bottom: 2px solid #00d981;
+  color: #00d981;
+} 
+.user:hover a{
+  color: #00d981;
+} 
+.user{
+  cursor: pointer;
+}
+.kiyimlar img{
+  cursor: pointer;
 }
 .login {
   gap: 35px;
