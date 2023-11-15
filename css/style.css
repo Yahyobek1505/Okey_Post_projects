@@ -25,28 +25,28 @@
   font-weight: 600;
   line-height: 16px; /* 106.667% */
 }
-.nav a:hover{
+.nav a:hover {
   border-bottom: 2px solid #00d981;
   color: #00d981;
-} 
-body button:hover a{
+}
+body button:hover a {
   color: #d500d9;
 }
-body button:hover{
+body button:hover {
   background: linear-gradient(90deg, #12c143 0%, #00d912 96.96%);
   box-shadow: 0px 4px 4px 0px rgba(51, 198, 18, 0.2);
 }
-.user:hover{
+.user:hover {
   border-bottom: 2px solid #00d981;
   color: #00d981;
-} 
-.user:hover a{
+}
+.user:hover a {
   color: #00d981;
-} 
-.user{
+}
+.user {
   cursor: pointer;
 }
-.kiyimlar img{
+.kiyimlar img {
   cursor: pointer;
 }
 .login {
@@ -421,6 +421,38 @@ body button:hover{
 .input {
   margin-right: 10px;
 }
+.select {
+  border: none;
+  outline: none;
+  width: 200px;
+  color: #222;
+  font-family: Gilroy;
+  font-size: 16px;
+  font-weight: 300;
+  cursor: pointer;
+  text-indent: 15px;
+  line-height: 16px; /* 100% */
+}
+.city__input {
+  border: none;
+  outline: none;
+  width: 200px;
+  color: #222;
+  font-family: Gilroy;
+  font-size: 16px;
+  font-weight: 300;
+  text-indent: 15px;
+  line-height: 16px; /* 100% */
+}
+.select option {
+  margin-left: 10px;
+  width: 200px;
+  color: #222;
+  font-family: Gilroy;
+  font-size: 16px;
+  font-weight: 300;
+  line-height: 16px; /* 100% */
+}
 .input h3 {
   width: 200px;
   margin-bottom: 15px;
@@ -614,15 +646,15 @@ body button:hover{
   line-height: 30px; /* 187.5% */
 }
 
-.master{
+.master {
   width: 1200px;
   margin: 0 auto;
-  margin-bottom: 50px; 
+  margin-bottom: 50px;
 }
-.four__step{
+.four__step {
   gap: 40px;
 }
-.first__step p{
+.first__step p {
   margin-left: 20px;
 }
 .master p {
@@ -636,4 +668,34 @@ body button:hover{
 .dostavka__image2 img {
   width: 406px;
   height: 405px;
+}
+.bildirishnoma {
+  width: 1250px;
+  margin: 0 auto;
+}
+.ogirlik {
+  width: 447px;
+  height: 250px;
+  padding: 35px 47px 51px 37px;
+  border-radius: 16px;
+  background: var(--5, #fff);
+  box-shadow: 0px 0px 70px 0px rgba(138, 138, 138, 0.1);
+}
+.ogirlik h3 {
+  width: 369px;
+  color: #1f2428;
+  font-family: Gilroy;
+  margin-top: 30px;
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 20px; /* 111.111% */
+}
+.ogirlik p {
+  width: 363px;
+  color: #1f2428;
+  font-family: Gilroy;
+  font-size: 16px;
+  font-weight: 300;
+  margin-top: 10px;
+  line-height: 26px; /* 162.5% */
 }
