@@ -670,11 +670,12 @@ body button:hover {
   height: 405px;
 }
 .bildirishnoma {
-  width: 1250px;
+  width: 1150px;
   margin: 0 auto;
+  gap: 30px;
 }
 .ogirlik {
-  width: 447px;
+  width: 407px;
   height: 250px;
   padding: 35px 47px 51px 37px;
   border-radius: 16px;
@@ -682,7 +683,7 @@ body button:hover {
   box-shadow: 0px 0px 70px 0px rgba(138, 138, 138, 0.1);
 }
 .ogirlik h3 {
-  width: 369px;
+  width: 309px;
   color: #1f2428;
   font-family: Gilroy;
   margin-top: 30px;
@@ -691,11 +692,91 @@ body button:hover {
   line-height: 20px; /* 111.111% */
 }
 .ogirlik p {
-  width: 363px;
+  width: 343px;
   color: #1f2428;
   font-family: Gilroy;
   font-size: 16px;
   font-weight: 300;
   margin-top: 10px;
   line-height: 26px; /* 162.5% */
+}
+.bloger__title {
+  margin-top: 80px;
+  margin-bottom: 40px;
+}
+.bloger__comment {
+  width: 1250px;
+  margin: 0 auto;
+  margin-bottom: 150px;
+}
+.first__blog {
+  width: 1250px;
+  margin: 0 auto;
+  margin-bottom: 30px;
+  gap: 30px;
+  padding-left: 10px;
+}
+.img__comment {
+  margin-top: 10px;
+  margin-left: 10px;
+  margin-bottom: 10px;
+}
+.first__comment {
+  gap: 38px;
+  width: 685px;
+  height: 260px;
+  border-radius: 16px;
+  background: #fff;
+  box-shadow: 0px 0px 70px 0px rgba(138, 138, 138, 0.1);
+}
+.bloger__comment button,
+.following button {
+  width: 240px;
+  height: 66px;
+  flex-shrink: 0;
+  border-radius: 36px;
+  background: linear-gradient(90deg, #00c97b 0%, #00d981 96.96%);
+  box-shadow: 0px 4px 4px 0px rgba(1, 203, 124, 0.2);
+}
+.bloger__comment button a,
+.following button a {
+  width: 240px;
+  height: 22px;
+  flex-shrink: 0;
+  color: #fff;
+  text-align: center;
+  font-family: Gilroy;
+  font-size: 17px;
+  font-weight: 700;
+  line-height: 18px; /* 105.882% */
+}
+.email__adress{
+  width: 100%;
+  height: 250px;
+ padding-top: 68px;
+  border-radius: 36px;
+  background: linear-gradient(80deg, #5b52a3 1.08%, #40b8ea 100%);
+}
+.lichka p {
+  width: 1250px;
+  color: #1f2428;
+  font-family: Gilroy;
+  font-size: 18px;
+  margin-top: 12px;
+  margin-bottom: 150px;
+  font-weight: 300;
+  
+}
+.following{
+  gap: 164px;
+  width: 1250px;
+  margin: 0 auto;
+}
+.following__titile h2 {
+  width: 482px;
+  color:#fff;
+  font-family: Gilroy;
+  font-size: 30px;
+  font-weight: 700;
+  line-height: 40px; /* 133.333% */
 }
