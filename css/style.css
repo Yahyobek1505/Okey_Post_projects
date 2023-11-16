@@ -540,6 +540,10 @@ body button:hover {
   margin-left: 8px;
   padding-right: 10px;
 }
+.right__pochta img,
+.right__pochta3 img {
+  cursor: pointer;
+}
 .surok,
 .surok3,
 .puli,
@@ -753,6 +757,7 @@ body button:hover {
 .email__adress {
   width: 100%;
   height: 250px;
+  margin-bottom: 70px;
   padding-top: 68px;
   border-radius: 36px;
   background: linear-gradient(80deg, #5b52a3 1.08%, #40b8ea 100%);
@@ -768,7 +773,7 @@ body button:hover {
   line-height: 36px;
 }
 .following {
-  gap: 64px;
+  gap: 55px;
   width: 1250px;
   margin: 0 auto;
 }
@@ -780,7 +785,7 @@ body button:hover {
   font-weight: 700;
   line-height: 40px; /* 133.333% */
 }
-.email__input{
+.email__input {
   margin-top: 20px;
 }
 .email__input input {
@@ -801,4 +806,62 @@ body button:hover {
 .email__forma {
   padding-bottom: 25px;
   border-bottom: 2px solid #fff;
+}
+.footer {
+  gap: 145px;
+  margin-bottom: 55px;
+}
+.shocial {
+  margin-top: 40px;
+  gap: 5px;
+}
+.about__company p {
+  color: #1f2428;
+  font-family: Gilroy;
+  font-size: 14px;
+  font-weight: 300;
+  margin-top: 4px;
+  line-height: 20px; /* 142.857% 
+  */
+}
+.usefull p {
+  color: #1f2428;
+  font-family: Gilroy;
+  font-size: 14px;
+  font-weight: 300;
+  margin-top: 8px;
+  line-height: 20px; /* 142.857% 
+  */
+}
+.special__projects p {
+  color: #1f2428;
+  font-family: Gilroy;
+  font-size: 14px;
+  font-weight: 300;
+  margin-top: 14px;
+  line-height: 20px; /* 142.857% 
+  */
+}
+.footer h3 {
+  color: #1f2428;
+  font-family: Gilroy;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 16px; /* 100% */
+}
+.huquqlar {
+  width: 1280px;
+  margin: 0 auto;
+  text-align: center;
+  padding-bottom: 20px;
+}
+hr {
+  margin-bottom: 36px;
+}
+.huquqlar h4 {
+  color: #1f2428;
+  font-family: Gilroy;
+  font-size: 13px;
+  font-weight: 300;
+  line-height: 20px; /* 153.846% */
 }
